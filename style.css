@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'JetBrains Mono', monospace;
+	margin: 0;
+	padding: 0;
+	background-color: aliceblue;
+	color: #575757;
+}
+
+
+nav {
+	background-color: #2c48a5;
+	padding: 2px;
+	position: sticky;
+	top: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+	padding: 5px;
+}
+
+
+nav ul li a:hover {
+	color: #2c48a5;
+	background-color: white;
+	border-radius: 5px;
+}
+
+header {
+	display: inline;
+}
+
+header .title {
+	text-align: center;
+}
+
+header .title p {
+	transform: translateY(-20px);
+}
+
+h2 {
+	color: #2c48a5;
+}
+
+h3 {
+	color: #6e6e6e;
+}
+
+#content p {
+	text-align: justify;
+}
+
+.avatar img{
+    width : 100px;
+    height: 100px;
+	border-radius: 100%;
+}
+
+.card {
+	border-radius: 5px;
+	padding: 20px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 7px 0px #2c48a5;
+    margin-right: 0 none;
+	margin-top: 20px;
+}
+.anoboykotak{
+	width: 70%;
+    margin: auto;
+}
+
+.anoboykotak .anoboy img{
+	width: 100%;
+    object-fit: cover;
+}
+
+.anoboykotak .anoboy{
+	border-radius: 10px;
+	/*background-color: red;*/
+    overflow: hidden;
+    border: 1px solid ;
+    box-shadow: 0px 0px 7px 0px #2c48a5;
+	margin-top: 20px;
+}
+
+main {
+	padding: 20px;
+	overflow: hidden;
+}
+#content {
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    box-shadow: 0.1px 1px 7px 0.1px  #2c48a5;
+    margin-bottom: 50px;
+    float: left;
+    width: 75%;
+    display: block;
+}
+
+aside {
+	float: right;
+	width: 23%;
+	padding-left: 20px;
+	text-align: center;
+}
+
+aside #biodata th,
+aside #biodata td {
+	text-align: left;
+	width: 50%;
+}
+
+aside .card #biodata table{
+	margin: 0 auto;
+}
+
+footer {
+	text-align: center;
+}
+.anime {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info tr td{
+	border: 1px solid gray;
+	border-collapse: collapse;
+	border-style: dashed;
+}
